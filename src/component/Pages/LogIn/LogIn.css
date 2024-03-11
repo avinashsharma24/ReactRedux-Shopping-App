@@ -1,0 +1,174 @@
+.login-section{
+  /* margin-top: 80px; */
+  /* border: solid; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* gap: 1em; */
+  align-items: center;
+}
+
+.login-left{
+  /* border: solid; */
+  display: flex;
+  /* padding-left: 1em; */
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  margin-top: 75px;
+  height: 80%;
+  background-color: #28abab;
+  /* color: white; */
+}
+
+.login-up{
+  display: flex;
+  padding-left: 1em;
+  
+  flex-direction: column;
+  gap: .5em;
+}
+
+.hh{
+  /* border: solid; */
+  font-size: 1.5rem; 
+  font-weight : bold
+  
+}
+
+.login-p{
+    font-size: large;
+}
+
+.login-section .down-image{
+      /* background-image: url(../../../Assets/photos/login-1.jpg); */
+      /* background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; */
+      border: solid;
+      width:  100%;
+      height: 20%;
+}
+
+.form-div {
+  /* margin-top: 80px; */
+  /* border: 1px solid rgba(128, 128, 128, 0.207); */
+  box-shadow: 1em 1em 1em 1em  rgba(128, 128, 128, 0.207);
+  height: 80%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+.signUp-form {
+  /* border: solid; */
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  width: 55%;
+  align-items: center;
+
+}
+
+.h11{
+  display: flex;
+  /* border: solid; */
+  justify-content: center;
+  align-items: center;
+}
+
+.h11 h1{
+     text-align: center;
+}
+
+.div-inp {
+  /* border: solid; */
+  width: 100%;
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  align-content: center;
+}
+
+.label-1{
+  /* border: solid; */
+  width: 25%;
+  
+}
+
+#inp-box {
+
+  padding: 0.7em 0em 0.7em 0.5em;
+  border-top: none;
+  border-left: none;
+  border-right:none ;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.507);
+  /* border: solid; */
+  outline: none;
+  width: 95%;
+  min-width: 120px;
+}
+
+.signup-btn {
+  /* border: solid; */
+  width: 80%;
+  margin-top: 1em;
+  /* padding-left: 50px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#signup-b:hover {
+  filter: drop-shadow(3px 3px 4px #7e2c04 );
+  
+}
+
+#signup-b{
+  border: solid green;
+  border-radius: 4px;
+  width: 100%;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  border: none;
+  background-color: #fb641b;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  .form {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:500px) {
+   
+  .login-section{
+    flex-direction: column;
+  }
+
+  .login-section .login-left{
+    height: 40%;
+    width: 100%;
+  }
+
+  .login-section .form-div{
+
+      width: 100%;
+      /* border: solid; */
+  }
+
+  .form-div .signUp-form{
+    /* border: solid; */
+    width: 95%;
+  }
+   
+}
